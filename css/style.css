@@ -1,0 +1,149 @@
+li {
+  display: inline;
+}
+.header-text {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(../images/heroimage.jpeg);
+  height:400px;
+  background-size: cover;
+  text-align: center;
+  te
+  font-size: 50;
+  color: white;
+
+}
+.h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  /*margin-top: 200px;*/
+
+}
+
+.main-container {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+.pricing-box {
+  height: 500px;
+  width: 30%;
+  background-color: gray;
+  float: left;
+  text-align: center;
+}
+.green {
+  color: white;
+   background-color: #519251;
+   text-align: center;
+ }
+ .blue {
+  color: white;
+  background-color: #2c4985;
+  text-align: center;
+}
+.black {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.center {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.service-box {
+  height: 100px;
+  width: 45%;
+  background-color: red;
+  border: 2px solid purple;
+  margin-top: 20px;
+}
+.choose-box {
+  background-color: white;
+  height: 30px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: %;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+
+.topl {
+  clear: both;
+  float: left;
+}
+
+.topr {
+  float: right;
+}
+
+.bottoml {
+  clear: both;
+  float: left;
+}
+.bottomr {
+  float: right;
+}
+
+.footer {
+  clear: both;
+  background-color: black;
+  height:75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*breakpoint 4*/
+@media (min-width: 979px)
+{
+  .main-container {
+    width: 960px;
+  }
+}
+/*breakpoint 3*/
+@media (min-width: 768px) and (max-width: 978px) {
+  .main-container {
+    width: 100%;
+  }
+}
+  /*breakpoint 2 and 1*/
+@media (max-width: 767px){
+  .main-container {
+    width: 100%;
+  }
+  .pricing-box {
+      float: none;
+      width: 96%;
+      /*border: 1px solid red;*/
+  }
+  .topl .topr .bottoml .bottomr {
+    float: none;
+    width:100%;
+  }
+  .service-box {
+    width: 100%;
+  }
+  .center {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
